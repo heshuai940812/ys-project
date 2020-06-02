@@ -1,0 +1,45 @@
+/Users/heshuai/Downloads/apache-tomcat-8.5.50/bin/catalina.sh run
+[2020-02-24 09:29:26,528] Artifact Gradle : ctsi.mts : mts.war (exploded): Waiting for server connection to start artifact deployment...
+24-Feb-2020 21:29:28.579 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本:     Apache Tomcat/8.5.50
+24-Feb-2020 21:29:28.582 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:            Dec 7 2019 19:19:46 UTC
+24-Feb-2020 21:29:28.582 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(：8.5.50.0
+24-Feb-2020 21:29:28.582 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+24-Feb-2020 21:29:28.582 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:               10.15.2
+24-Feb-2020 21:29:28.582 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:                  x86_64
+24-Feb-2020 21:29:28.582 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:         /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre
+24-Feb-2020 21:29:28.582 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 版本:              1.8.0_181-b13
+24-Feb-2020 21:29:28.582 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:            Oracle Corporation
+24-Feb-2020 21:29:28.583 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/heshuai/Library/Caches/IntelliJIdea2019.3/tomcat/Unnamed_mts
+24-Feb-2020 21:29:28.583 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/heshuai/Downloads/apache-tomcat-8.5.50
+24-Feb-2020 21:29:28.583 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/heshuai/Library/Caches/IntelliJIdea2019.3/tomcat/Unnamed_mts/conf/logging.properties
+24-Feb-2020 21:29:28.583 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Feb-2020 21:29:28.583 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote=
+24-Feb-2020 21:29:28.583 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=1199
+24-Feb-2020 21:29:28.583 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+24-Feb-2020 21:29:28.583 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.password.file=/Users/heshuai/Library/Caches/IntelliJIdea2019.3/tomcat/Unnamed_mts/jmxremote.password
+24-Feb-2020 21:29:28.584 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.access.file=/Users/heshuai/Library/Caches/IntelliJIdea2019.3/tomcat/Unnamed_mts/jmxremote.access
+24-Feb-2020 21:29:28.584 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+24-Feb-2020 21:29:28.584 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Feb-2020 21:29:28.584 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Feb-2020 21:29:28.584 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Feb-2020 21:29:28.584 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Feb-2020 21:29:28.584 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/heshuai/Library/Caches/IntelliJIdea2019.3/tomcat/Unnamed_mts
+24-Feb-2020 21:29:28.584 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/heshuai/Downloads/apache-tomcat-8.5.50
+24-Feb-2020 21:29:28.584 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/heshuai/Downloads/apache-tomcat-8.5.50/temp
+24-Feb-2020 21:29:28.585 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/heshuai/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+24-Feb-2020 21:29:28.743 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+24-Feb-2020 21:29:28.760 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Feb-2020 21:29:28.791 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["ajp-nio-8009"]
+24-Feb-2020 21:29:28.792 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Feb-2020 21:29:28.793 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 580 ms
+24-Feb-2020 21:29:28.822 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Feb-2020 21:29:28.823 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
+24-Feb-2020 21:29:28.830 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+24-Feb-2020 21:29:28.839 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["ajp-nio-8009"]
+24-Feb-2020 21:29:28.841 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 47 ms
+Connected to server
+[2020-02-24 09:29:30,701] Artifact Gradle : ctsi.mts : mts.war (exploded): Artifact is being deployed, please wait...
+[2020-02-24 09:29:30,727] Artifact Gradle : ctsi.mts : mts.war (exploded): Error during artifact deployment. See server log for details.
+[2020-02-24 09:29:30,729] Artifact Gradle : ctsi.mts : mts.war (exploded): com.intellij.javaee.oss.admin.jmx.JmxAdminException: com.intellij.execution.ExecutionException: /Users/heshuai/Desktop/mts/build/libs/exploded/mts.war not found for the web module.
+24-Feb-2020 21:29:38.839 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/heshuai/Downloads/apache-tomcat-8.5.50/webapps/manager]
+24-Feb-2020 21:29:39.087 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/heshuai/Downloads/apache-tomcat-8.5.50/webapps/manager] has finished in [248] ms
